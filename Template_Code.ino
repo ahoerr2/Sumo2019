@@ -15,7 +15,7 @@ Zumo32U4Motors motors;
 Zumo32U4LineSensors lineSensors;
 
 //Time Variable, sensor detection
-#define sensorThreshold  10000 //microseconds
+#define sensorThreshold  1000 //microseconds
 
 // These might need to be tuned for different motor types.
 #define REVERSE_SPEED     300  // 0 is stopped, 400 is full speed
